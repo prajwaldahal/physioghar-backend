@@ -16,11 +16,11 @@ def _holders(store: Store) -> dict[datetime, object]:
     return {s.starts_at: s for s in store.sessions if s.status in HOLDS_SLOT}
 
 
-def resolve_day(store: Store, day: datetime) -> list[ResolvedSlot]:
+def resolve_day(store: Store, day: datetime | None) -> list[ResolvedSlot]:
     holders = _holders(store)
     resolved = []
     for slot in store.slots:
-        if slot.starts_at.date() != day.date():
+        if day is not None and slot.starts_at.date() != day.date():
             continue
         session = holders.get(slot.starts_at)
         if session is not None:

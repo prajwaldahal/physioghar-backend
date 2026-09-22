@@ -41,7 +41,7 @@ All routes are under `/api/v1`. Bodies and responses use the same camelCase fiel
 
 | Method | Path | What it does |
 |---|---|---|
-| `GET` | `/slots?day=YYYY-MM-DD` | That day's slots, each resolved to `open`, `booked` or `blocked`. A booked slot carries its session. |
+| `GET` | `/slots?day=YYYY-MM-DD` | That day's slots, each resolved to `open`, `booked` or `blocked`. A booked slot carries its session. Omit `day` for the whole seeded horizon. |
 | `POST` | `/slots` | Adds a 60-minute slot from `startsAt`. Rejects anything overlapping an existing slot. |
 | `POST` | `/slots/{id}/block` | Blocks an open slot. A booked slot cannot be blocked. |
 | `POST` | `/slots/{id}/unblock` | Reopens a blocked slot. |
