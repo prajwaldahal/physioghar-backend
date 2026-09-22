@@ -1,0 +1,74 @@
+[
+  {
+    "id": "p1",
+    "name": "Sita Sharma",
+    "age": 42,
+    "gender": "female",
+    "phone": "9841023457",
+    "condition": "Lower Back Pain",
+    "treatmentHistory": [
+      "Manual therapy and core strengthening",
+      "Home exercise programme reviewed fortnightly"
+    ]
+  },
+  {
+    "id": "p2",
+    "name": "Ram Thapa",
+    "age": 55,
+    "gender": "male",
+    "phone": "9851023458",
+    "condition": "Knee Rehabilitation",
+    "treatmentHistory": [
+      "Post-operative rehabilitation after meniscus repair",
+      "Progressive loading and gait retraining"
+    ]
+  },
+  {
+    "id": "p3",
+    "name": "Gita Adhikari",
+    "age": 34,
+    "gender": "female",
+    "phone": "9801023459",
+    "condition": "Frozen Shoulder",
+    "treatmentHistory": [
+      "Mobilisation and pendulum exercises",
+      "Heat therapy before each session"
+    ]
+  },
+  {
+    "id": "p4",
+    "name": "Bikash Gurung",
+    "age": 28,
+    "gender": "male",
+    "phone": "9861023460",
+    "condition": "Sports Injury (Ankle)",
+    "treatmentHistory": [
+      "Grade II lateral ligament sprain",
+      "Balance and proprioception training"
+    ]
+  },
+  {
+    "id": "p5",
+    "name": "Maya Tamang",
+    "age": 61,
+    "gender": "female",
+    "phone": "9841023461",
+    "condition": "Post-Stroke Rehabilitation",
+    "treatmentHistory": [
+      "Left-sided weakness, home visits twice weekly",
+      "Family trained on transfers and daily routine"
+    ]
+  },
+  {
+    "id": "p6",
+    "name": "Hari Bhattarai",
+    "age": 47,
+    "gender": "male",
+    "phone": "9851023462",
+    "condition": "Cervical Spondylosis",
+    "treatmentHistory": [
+      "Traction and postural correction",
+      "Workstation advice for desk work"
+    ]
+  }
+]
