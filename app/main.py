@@ -24,8 +24,8 @@ def root() -> RedirectResponse:
     return RedirectResponse("/docs")
 
 
-# HEAD is registered separately and kept out of the schema, because sharing one
-# route with GET gives both operations the same id and that is invalid OpenAPI.
+# Uptime monitors ping this with HEAD, so HEAD has to be allowed. It is declared
+# on its own because sharing one route with GET gives both the same operation id.
 @app.get("/health")
 @app.head("/health", include_in_schema=False)
 def health() -> dict[str, str]:
