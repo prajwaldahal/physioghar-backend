@@ -1,0 +1,20 @@
+[
+  {
+    "id": "n1",
+    "patientId": "p2",
+    "note": "Patient reported reduced pain compared to previous session.",
+    "exercises": ["Knee flexion", "Stretching", "Strengthening"],
+    "nextSessionPlan": "Continue strengthening exercises.",
+    "dayOffset": -7,
+    "time": "15:00"
+  },
+  {
+    "id": "n2",
+    "patientId": "p1",
+    "note": "Stiffness on waking has eased. Tolerated manual therapy well.",
+    "exercises": ["Pelvic tilts", "Cat-camel stretch"],
+    "nextSessionPlan": "Add bridging if pain stays settled.",
+    "dayOffset": -10,
+    "time": "11:00"
+  }
+]

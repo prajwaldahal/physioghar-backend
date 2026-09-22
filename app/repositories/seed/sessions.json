@@ -1,0 +1,189 @@
+[
+  {
+    "id": "s1",
+    "patientId": "p1",
+    "patientName": "Sita Sharma",
+    "treatment": "Back Pain",
+    "location": "homeVisit",
+    "dayOffset": 0,
+    "time": "10:00",
+    "status": "upcoming",
+    "remarks": null
+  },
+  {
+    "id": "s2",
+    "patientId": "p2",
+    "patientName": "Ram Thapa",
+    "treatment": "Knee Rehabilitation",
+    "location": "clinic",
+    "dayOffset": 0,
+    "time": "14:00",
+    "status": "upcoming",
+    "remarks": null
+  },
+  {
+    "id": "s3",
+    "patientId": "p1",
+    "patientName": "Sita Sharma",
+    "treatment": "Lower Back Pain",
+    "location": "homeVisit",
+    "dayOffset": -10,
+    "time": "10:00",
+    "status": "completed",
+    "remarks": "Pain reduced noticeably since the last visit. Continue daily stretches."
+  },
+  {
+    "id": "s4",
+    "patientId": "p1",
+    "patientName": "Sita Sharma",
+    "treatment": "Lower Back Pain",
+    "location": "homeVisit",
+    "dayOffset": -24,
+    "time": "11:00",
+    "status": "completed",
+    "remarks": null
+  },
+  {
+    "id": "s5",
+    "patientId": "p2",
+    "patientName": "Ram Thapa",
+    "treatment": "Knee Rehabilitation",
+    "location": "clinic",
+    "dayOffset": -7,
+    "time": "14:00",
+    "status": "completed",
+    "remarks": "Flexion improving. Added light resistance work."
+  },
+  {
+    "id": "s6",
+    "patientId": "p2",
+    "patientName": "Ram Thapa",
+    "treatment": "Knee Rehabilitation",
+    "location": "clinic",
+    "dayOffset": -14,
+    "time": "15:00",
+    "status": "completed",
+    "remarks": null
+  },
+  {
+    "id": "s7",
+    "patientId": "p3",
+    "patientName": "Gita Adhikari",
+    "treatment": "Frozen Shoulder",
+    "location": "clinic",
+    "dayOffset": -5,
+    "time": "09:00",
+    "status": "completed",
+    "remarks": "Range of motion improving slowly. Keep pendulum exercises."
+  },
+  {
+    "id": "s8",
+    "patientId": "p5",
+    "patientName": "Maya Tamang",
+    "treatment": "Post-Stroke Rehabilitation",
+    "location": "homeVisit",
+    "dayOffset": -3,
+    "time": "11:00",
+    "status": "completed",
+    "remarks": null
+  },
+  {
+    "id": "s9",
+    "patientId": "p5",
+    "patientName": "Maya Tamang",
+    "treatment": "Post-Stroke Rehabilitation",
+    "location": "homeVisit",
+    "dayOffset": -12,
+    "time": "11:00",
+    "status": "completed",
+    "remarks": "Balance work tolerated well. Family briefed on home routine."
+  },
+  {
+    "id": "s10",
+    "patientId": "p6",
+    "patientName": "Hari Bhattarai",
+    "treatment": "Cervical Spondylosis",
+    "location": "clinic",
+    "dayOffset": -20,
+    "time": "16:00",
+    "status": "completed",
+    "remarks": null
+  },
+  {
+    "id": "s11",
+    "patientId": "p4",
+    "patientName": "Bikash Gurung",
+    "treatment": "Sports Injury (Ankle)",
+    "location": "clinic",
+    "dayOffset": -6,
+    "time": "16:00",
+    "status": "completed",
+    "remarks": "Swelling down. Cleared for light jogging next week."
+  },
+  {
+    "id": "s12",
+    "patientId": "p3",
+    "patientName": "Gita Adhikari",
+    "treatment": "Frozen Shoulder",
+    "location": "clinic",
+    "dayOffset": 1,
+    "time": "11:00",
+    "status": "pending",
+    "remarks": null
+  },
+  {
+    "id": "s13",
+    "patientId": "p4",
+    "patientName": "Bikash Gurung",
+    "treatment": "Sports Injury (Ankle)",
+    "location": "homeVisit",
+    "dayOffset": 1,
+    "time": "12:00",
+    "status": "pending",
+    "remarks": null
+  },
+  {
+    "id": "s14",
+    "patientId": "p5",
+    "patientName": "Maya Tamang",
+    "treatment": "Post-Stroke Rehabilitation",
+    "location": "homeVisit",
+    "dayOffset": 2,
+    "time": "15:00",
+    "status": "pending",
+    "remarks": null
+  },
+  {
+    "id": "s15",
+    "patientId": "p6",
+    "patientName": "Hari Bhattarai",
+    "treatment": "Cervical Spondylosis",
+    "location": "clinic",
+    "dayOffset": 1,
+    "time": "11:00",
+    "status": "pending",
+    "remarks": null
+  },
+  {
+    "id": "s16",
+    "patientId": "p1",
+    "patientName": "Sita Sharma",
+    "treatment": "Lower Back Pain",
+    "location": "homeVisit",
+    "dayOffset": 3,
+    "time": "13:00",
+    "status": "pending",
+    "remarks": null
+  },
+  {
+    "id": "s17",
+    "patientId": "p4",
+    "patientName": "Bikash Gurung",
+    "treatment": "Sports Injury (Ankle)",
+    "location": "clinic",
+    "dayOffset": -2,
+    "time": "10:00",
+    "status": "cancelled",
+    "remarks": null
+  }
+]

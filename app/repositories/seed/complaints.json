@@ -1,0 +1,22 @@
+[
+  {
+    "id": "c1",
+    "reference": "PG-20471",
+    "category": "bookingIssue",
+    "subject": "Patient could not confirm a home visit",
+    "description": "A patient tried to book a home visit for Tuesday morning but the confirmation never reached them. They rang the clinic instead.",
+    "status": "open",
+    "dayOffset": -9,
+    "time": "16:20"
+  },
+  {
+    "id": "c2",
+    "reference": "PG-19338",
+    "category": "technicalIssue",
+    "subject": "Session list did not refresh after a cancellation",
+    "description": "After a patient cancelled, the session stayed in my upcoming list until I closed and reopened the app.",
+    "status": "open",
+    "dayOffset": -21,
+    "time": "10:05"
+  }
+]
