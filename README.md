@@ -24,8 +24,9 @@ Every setting has a sensible default, so the file is optional.
 
 Requires Python 3.11 or newer (developed on 3.12).
 
-A copy runs at `https://physioghar-backend.onrender.com`, with the same docs at `/docs`. It is on a
-free plan that sleeps when idle, so the first request after a quiet spell takes about half a minute.
+A copy runs at `https://physioghar-backend.onrender.com`, with the same docs at `/docs`. Render
+stops a free instance once nothing has touched it for a while, so an uptime monitor pings `/health`
+every few minutes to keep it up. Starting a stopped instance back up takes about half a minute.
 
 ## Endpoints
 
