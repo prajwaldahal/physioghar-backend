@@ -19,8 +19,8 @@ uvicorn app.main:app --reload
 The API then listens on `http://127.0.0.1:8000`. Interactive docs are at `/docs`, and the OpenAPI
 schema at `/openapi.json`.
 
-Copy `.env.example` to `.env` to change the app name, the API prefix or the allowed CORS origins.
-Every setting has a sensible default, so the file is optional.
+`APP_NAME`, `API_V1_PREFIX` and `CORS_ORIGINS` can be set in the environment, or in a `.env` file
+if you prefer one. Each has a sensible default, so neither is needed to run it.
 
 Requires Python 3.11 or newer (developed on 3.12).
 
