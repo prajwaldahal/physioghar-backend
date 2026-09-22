@@ -72,7 +72,7 @@ All routes are under `/api/v1`. Bodies and responses use the same camelCase fiel
 | Method | Path | What it does |
 |---|---|---|
 | `GET` | `/complaints` | Complaints, newest first. |
-| `POST` | `/complaints` | Submits one. Subject 5–80 characters, description 20–500, and a category from the fixed list. Returns a generated `PG-#####` reference. |
+| `POST` | `/complaints` | Submits one. Subject 5 to 80 characters, description 20 to 500, and a category from the fixed list. Returns a generated `PG-#####` reference. |
 | `POST` | `/reset` | Puts every slice back to its seed. This is what the app's logout calls. |
 
 `GET /health` sits outside the versioned prefix and answers `{"status": "ok"}`.
