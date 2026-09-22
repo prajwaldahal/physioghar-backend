@@ -24,6 +24,9 @@ Every setting has a sensible default, so the file is optional.
 
 Requires Python 3.11 or newer (developed on 3.12).
 
+A copy runs at `https://physioghar-backend.onrender.com`, with the same docs at `/docs`. It is on a
+free plan that sleeps when idle, so the first request after a quiet spell takes about half a minute.
+
 ## Endpoints
 
 All routes are under `/api/v1`. Bodies and responses use the same camelCase field names as the app.
@@ -75,7 +78,8 @@ All routes are under `/api/v1`. Bodies and responses use the same camelCase fiel
 | `POST` | `/complaints` | Submits one. Subject 5 to 80 characters, description 20 to 500, and a category from the fixed list. Returns a generated `PG-#####` reference. |
 | `POST` | `/reset` | Puts every slice back to its seed. This is what the app's logout calls. |
 
-`GET /health` sits outside the versioned prefix and answers `{"status": "ok"}`.
+`GET /health` sits outside the versioned prefix and answers `{"status": "ok"}`. It accepts `HEAD`
+as well, because uptime monitors ping it that way. Opening the bare host redirects to `/docs`.
 
 ## Business rules
 
