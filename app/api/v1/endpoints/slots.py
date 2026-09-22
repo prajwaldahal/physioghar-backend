@@ -22,10 +22,13 @@ def _parse(value: str) -> datetime:
 
 @router.get("", response_model=list[ResolvedSlot], response_model_by_alias=True)
 def list_slots(
-    day: date = Query(description="Day to list slots for"),
+    day: date | None = Query(
+        default=None, description="Day to list slots for; omit for the whole horizon"
+    ),
     store: Store = Depends(get_store),
 ) -> list[ResolvedSlot]:
-    return schedule_service.resolve_day(store, datetime(day.year, day.month, day.day))
+    scoped = datetime(day.year, day.month, day.day) if day is not None else None
+    return schedule_service.resolve_day(store, scoped)
 
 
 @router.post(
